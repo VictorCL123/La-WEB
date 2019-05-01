@@ -16,12 +16,17 @@ header,nav,main,section,aside,footer{
 }
 header{
   grid-area: hd;
+<<<<<<< HEAD
+  font-size: 30px;
+  background-color: blue;
+=======
   padding: 40px;
   text-align: center;
   background-color: darkblue;
   color: white;
   font-size: 30px;
 
+>>>>>>> 430ee02ffc7521bfb2a83ae7c445a01f8f9b9d08
 }
 nav{
   grid-area: nv;
