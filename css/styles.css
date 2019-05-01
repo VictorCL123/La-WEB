@@ -16,7 +16,7 @@ header,nav,main,section,aside,footer{
 }
 header{
   grid-area: hd;
-  padding: 40px;
+  padding: 0px;
   text-align: center;
   background-color: darkblue;
   color: white;
