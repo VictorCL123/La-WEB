@@ -1,7 +1,7 @@
 body{
   display: grid;
   grid-template-columns: 80% 20%;
-  grid-template-rows: 80px 40px auto 80px;
+  grid-template-rows: 80px 50px auto 80px;
   grid-template-areas: "hd hd"
                        "nv nv"
                        "mn as"
@@ -57,4 +57,29 @@ h1
 font-size:98px;
 
 	background-color:goldenrod;
+}
+
+nav{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    background: midnightblue;
+    color: darkgoldenrod;
+    width: 20%;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav> a:hover{
+    color:brown;
+    background-color: blue;
+}
+
+@media(max-width: 400px){
+    nav{
+        flex-direction: column;
+    }
 }
