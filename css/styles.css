@@ -16,6 +16,8 @@ header,nav,main,section,aside,footer{
 }
 header{
   grid-area: hd;
+  font-size: 30px;
+  background-color: blue;
 }
 nav{
   grid-area: nv;
