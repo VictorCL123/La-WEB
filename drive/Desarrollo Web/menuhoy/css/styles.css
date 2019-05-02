@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    background: midnightblue;
+    color: darkgoldenrod;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+nav> a:hover{
+    color:brown;
+    background-color: blue;
+}
+
+@media(max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+}

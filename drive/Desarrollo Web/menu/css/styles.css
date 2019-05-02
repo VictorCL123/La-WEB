@@ -1,0 +1,27 @@
+h1{
+    background-color:green;
+}
+span{
+    display:block;
+}
+
+#cp{
+    background-color: gray;
+    height: 800px;
+}
+#ch1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: static;
+    top: 10px;
+}
+#ch2{
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    
+
+}

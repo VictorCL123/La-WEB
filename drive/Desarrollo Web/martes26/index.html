@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ejemId">UNAM</h1>
+    <p class="ejemClass">"Por mi raza hablara el espiritu"</p>
+    <p class="ejemClass">Arriba los pumas.</pclass></p>
+    <img id = "ejemAtri" src="img800/UNAM0.png" alt="Unam">
+    <button onmouseover="document.getElementById('ejemId').style.color='yellow'"> Cambia color</button>
+    <button onclick="document.getElementById('ejemId').style.visibility='hidden'">Desaparecer</button>
+    
+    <script>
+
+    var i = document.getElementById("ejemId");
+    i.innerHTML="Hola mundo!";
+    var c = document.getElementsByClassName("ejemClass");
+    c[0].innerHTML = "FES catlan";
+    c[1].innerHTML = "MAC";
+    document.getElementById("ejemAtri").src="img800/brand.gif";
+    document.getElementById("ejemId").style.color="red";
+    document.getElementById("ejemId").style.fontSize="70px";
+
+    </script>
+
+</body>
+</html>
