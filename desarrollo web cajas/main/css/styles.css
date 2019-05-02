@@ -11,13 +11,24 @@ grid-template-areas: "hd hd"
 header, nav,main,section, aside,footer
 {
   font-family: Verdana, Genova,Tahoma, sans-serif;
-  background-color: gray;
-  margin: 5px;
-  color: white;
+  background-color:pink;
+  margin: 20px;
+  color:black;
   text-align: center;
+  grid-gap: 10px;
+   
+  background-color: #2196F3;
+  padding: 10px;
+
+  
 }
+
 header{
   grid-area: hd;
+  background-color: white;
+  border: 3px solid blue;
+  padding: 20px;
+  
 }
 nav{
   grid-area: nv;
