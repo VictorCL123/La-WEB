@@ -1,7 +1,7 @@
 body{
   display: grid;
-  grid-template-columns: 80% 20%;
-  grid-template-rows: 150px 50px 600px 80px;
+  grid-template-columns: 1000px 300px;
+  grid-template-rows: 150px auto 600px 80px;
   grid-template-areas: "hd hd"
                        "nv nv"
                        "mn as"
