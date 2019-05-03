@@ -1,12 +1,14 @@
+
 var c;
 var ctx;
 var estrellaImg = new Image();
 
+init();
 function init()
 {
 	c = document.getElementById("myCanvas");
 	ctx = c.getContext("2d");
-	estrellaImg.src = "img/estrella.png";
+	//estrellaImg.src = "img/estrella.png";
 	window.requestAnimationFrame(draw);
 }
 
@@ -18,7 +20,7 @@ class Cuadro
 			this.avance = 0;
 		else
 			this.avance = Math.PI*2;
-		
+
 		this.width = width;
 		this.color = color;
 		this.clockwise = clockwise;
@@ -119,9 +121,7 @@ function draw()
 	circulo3.draws();
 	circulo4.draws();
 
-	estrella.draws();
+	//estrella.draws();
 
 	window.requestAnimationFrame(draw);
 }
-
-window.onload = init;
