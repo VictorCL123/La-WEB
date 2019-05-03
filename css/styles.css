@@ -1,7 +1,7 @@
 body{
   display: grid;
   grid-template-columns: 1000px 300px;
-  grid-template-rows: 150px auto 600px 80px;
+  grid-template-rows: 150px auto auto 80px;
   grid-template-areas: "hd hd"
                        "nv nv"
                        "mn as"
@@ -16,11 +16,23 @@ header,nav,main,section,aside,footer{
 }
 header{
   grid-area: hd;
+  display: grid;
+  grid-template-columns: auto 500px;
+  grid-template-rows: 10px auto;
+  grid-template-areas:". ."
+                      "ti im";
   padding: 0px;
   text-align: center;
   background-color: #000088;
   color: white;
   font-size: 30px;
+}
+#titulo{
+  grid-area: ti;
+  font-size: 50px;
+}
+#fes{
+  grid-area: im;
 }
 nav{
   grid-area: nv;
@@ -29,9 +41,9 @@ main{
   grid-area: mn;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 10px 400px;
-  grid-template-areas: ". ."
-                       "sc1 sc1"
+  grid-template-rows: auto auto;
+  grid-template-areas: "sc1 sc1"
+                       "sc2 sc2"
 }
 aside{
   grid-area: as;
@@ -41,6 +53,9 @@ footer{
 }
 #s1{
   grid-area: sc1;
+}
+#s2{
+  grid-area: sc2;
 }
 canvas{
     border: 2px solid blue
